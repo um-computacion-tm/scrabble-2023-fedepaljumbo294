@@ -11,7 +11,8 @@
 - Added the cell test
 - Added the board class
 - Added the board test
-
+- Added the scrabble class
+- Added the scrabble test
 ### Changed 
  
 
