@@ -9,6 +9,9 @@
 - Added the models test
 - Added the cell class
 - Added the cell test
+- Added the board class
+- Added the board test
+
 ### Changed 
  
 
