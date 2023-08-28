@@ -7,7 +7,8 @@
 - Added the player test
 - Added the models class
 - Added the models test
- 
+- Added the cell class
+- Added the cell test
 ### Changed 
  
 
