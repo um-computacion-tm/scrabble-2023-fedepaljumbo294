@@ -1,11 +1,11 @@
 from game.models import Tile  # Importamos la clase Tile desde el módulo models
 
 class Cell:
-    def __init__(self, multiplier, multiplier_type):
+    def __init__(self, multiplier=1, multiplier_type="letter",letter=None,active=True):
         self.multiplier = multiplier  # Asignamos el valor del multiplicador al atributo 'multiplier'
         self.multiplier_type = multiplier_type  # Asignamos el tipo de multiplicador al atributo 'multiplier_type'
-        self.letter = None  # Inicializamos el atributo 'letter' como None (sin letra)
-
+        self.letter = letter  # Inicializamos el atributo 'letter' como None (sin letra)
+        self.active = active
     def add_letter(self, letter:Tile):
         self.letter = letter  # Asignamos el objeto Tile proporcionado al atributo 'letter'
 
